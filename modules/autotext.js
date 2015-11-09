@@ -1,20 +1,10 @@
 // Automatic Text Selection
 
-function autotext(interval, textfile, do_not_autostart) {
+function autotext(interval, msgs, do_not_autostart) {
 	do_not_autostart = do_not_autostart || false;
-	textfile = textfile || require("path").resolve("../default_msgs.txt");
-	
-	var fs = require("fs");
-	if (!fs.existsSync(textfile)) {
-		textfile = require("path").resolve("../default_msgs.txt");
-	}
-	
-	var msg_file_contents = fs.readFileSync(textfile);
 	
 	var self = this;
 	
-	var parser = require("./fileparser");
-	var msgs = new parser(msg_file_contents).parse();
 	var last_msg = -1;
 	
 	var intervalID;
@@ -29,7 +19,7 @@ function autotext(interval, textfile, do_not_autostart) {
 	this.start = function() {
 		if (typeof intervalID === "undefined") {
 			intervalID = setInterval(function() {
-				var index = Math.floor(Math.random() * msgs.length);
+				var index = last_msg;
 				while (index === last_msg) {
 					index = Math.floor(Math.random() * msgs.length);
 				}
@@ -38,6 +28,12 @@ function autotext(interval, textfile, do_not_autostart) {
 				self.emit("auto_message", msg);
 			}, interval);
 		}
+	}
+	
+	this.changeInterval = function(newInterval) {
+		interval = newInterval;
+		self.stop();
+		self.start();
 	}
 	
 	if (!do_not_autostart) {
