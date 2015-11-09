@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A chat bot for Livecoding.TV, done for their chat bot competition.",
   "main": "lctv_bot.js",
+  "preferGlobal": "true",
   "dependencies": {
     "config": "^1.16.0",
     "cson": "^3.0.2",
@@ -19,6 +20,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lctv-bot": "index.js"
   },
   "repository": {
     "type": "git",

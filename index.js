@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+var appDir = require("path").dirname(require.main.filename);
+process.chdir(appDir);
 // This is the main file of the application which starts
 // and manages all the modules. The brain if you will.
 
