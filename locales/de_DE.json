@@ -1,0 +1,26 @@
+{
+	"lctv_streamguide": "Livecoding.tv Streaminganleitung (englisch) für Mac, Windows und Linux ist hier:\nhttps://www.livecoding.tv/streamingguide/",
+	"lctv_support_msg": "Livecoding.tv Supportseite (englisch) ist hier: http://support.livecoding.tv/hc/en-us/",
+	"lctv_new_features": "Hier ist eine Liste mit neuen Funktione von Livecoding.tv:\n\nHeuer 'nen Programmier an!\nStreambenachrichtigungen auf Reddit!",
+	
+	"favorite_ide": "Meine bevorzugte IDE ist %1",
+	"favorite_language": "Meine bevorzugte Programmiersprache ist %1",
+	"favorite_framework": "Mein bevorzugtes Framework ist %1",
+	"favorite_viewer": "%1 ist mein liebster Zuschauer!",
+	"favorite_music": "Ich höre gerne %1",
+	
+	"tools": "Ich benutze %tools",
+	"current_song": "Was spielt: %song",
+	
+	"greet_regular": "Hey, willkommen zurück, %1!",
+	"greet_normal": "Willkommen, %1! Was treibt dich hier her?",
+	"greet_vip": "VIP %1 ist da, verbeugt euch!",
+	
+	"give_vip": "User '%1' ist jetzt VIP.",
+	"remove_vip": "User '%1' ist kein VIP mehr.",
+	"list_vip": "Diese User sind VIP: %1",
+	"help_vip": "Syntax: vip [add | remove | list | help] <Username>",
+	
+	"change_locale": "Sprache geändert zu '%1'",
+	"change_property": "Einstellung '%1' geändert zu '%2'"
+}

@@ -1,0 +1,26 @@
+{
+	"lctv_streamguide": "Livecoding.tv streaming guide for Mac, Windows and Linux is here:\nhttps://www.livecoding.tv/streamingguide/",
+	"lctv_support_msg": "Livecoding.tv support page is here: http://support.livecoding.tv/hc/en-us/",
+	"lctv_new_features": "Here is a list of new features Livecoding.tv released:\n\nHire a Streamer & Pay\nReddit stream announcement",
+	
+	"favorite_ide": "My favorite IDE is %1",
+	"favorite_language": "My favorite language is %1",
+	"favorite_framework": "My favorite framework is %1",
+	"favorite_viewer": "%1 is my favorite viewer!",
+	"favorite_music": "I really like to listen to %1",
+	
+	"tools": "I currently use %tools",
+	"current_song": "Now playing: %song",
+	
+	"greet_regular": "Hey, welcome back %1!",
+	"greet_normal": "Welcome, %1! What brings you here today?",
+	"greet_vip": "VIP %1 is here, bow, everyone!",
+	
+	"give_vip": "User '%1' has been given VIP.",
+	"remove_vip": "Removed VIP from user '%1'",
+	"list_vip": "These users are currently VIP: %1",
+	"help_vip": "Syntax: vip [add | remove | list | help] <Username>",
+	
+	"change_locale": "Language has been changed to '%1'",
+	"change_property": "Property '%1' changed to '%2'"
+}

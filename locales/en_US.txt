@@ -1,3 +1,0 @@
-{
-	"test": "This is a test message with saying hi to %2 and %2"
-}
