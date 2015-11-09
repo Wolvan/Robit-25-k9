@@ -1,0 +1,41 @@
+{
+  "name": "lctv-chat-bot",
+  "version": "1.0.0",
+  "description": "A chat bot for Livecoding.TV, done for their chat bot competition.",
+  "main": "lctv_bot.js",
+  "dependencies": {
+    "config": "^1.16.0",
+    "cson": "^3.0.2",
+    "fs-extra": "^0.26.2",
+    "hjson": "^1.7.4",
+    "js-yaml": "^3.4.3",
+    "json-fs-store": "^0.1.0",
+    "json5": "^0.4.0",
+    "node-xmpp-client": "^2.0.2",
+    "node-xmpp-core": "^4.0.0",
+    "properties": "^1.2.1",
+    "toml": "^2.3.0",
+    "coffee-script": "^1.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolvan/Robit-25-k9.git"
+  },
+  "keywords": [
+    "LCTV",
+    "livecoding.tv",
+    "bot",
+    "chat",
+    "xmpp",
+    "competition"
+  ],
+  "author": "Wolvan",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Wolvan/Robit-25-k9/issues"
+  },
+  "homepage": "https://github.com/Wolvan/Robit-25-k9#readme"
+}
