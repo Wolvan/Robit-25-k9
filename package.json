@@ -1,6 +1,6 @@
 {
   "name": "lctv-chat-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A chat bot for Livecoding.TV, done for their chat bot competition.",
   "main": "lctv_bot.js",
   "preferGlobal": "true",
